@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGwVd07rcBUxKVqf17F_Li5fy-a_zni7JuEQ&s') no-repeat center center/cover;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.countdown {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.countdown span {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.label {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #aaa;
+}
